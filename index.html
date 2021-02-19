@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="nav-container">
+            <div class="nav-header">
+                <h3>Select Option</h3>
+            </div>
+
+            <div class="nav-options">
+                <div class="area circle active">
+                    <p>Area of circle</p>
+                </div>
+                <div class="area square">
+                    <p>Area of square</p>
+                </div>
+                <div class="area rectangle">
+                    <p>Area of rectangle</p>
+                </div>
+                <div class="area cylinder">
+                    <p>Area of cylinder</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="calc-container">
+            <div class="area-calc circle-calc  active-index">
+                <h3>Area of circle</h3>
+                <div class="form">
+                    <input id="circle" class="form-input" type="number" placeholder="Radius">
+                    <input class="form-button circle-calc-btn" type="button" value="Calculator">
+                    <div class="form-result ">
+                        <h1 class="circle-result"></h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="area-calc square-calc">
+                <h3>Area of square</h3>
+                <div class="form">
+                    <input id="square" class="form-input" type="number" placeholder="Enter value">
+                    <input class="form-button square-calc-btn" type="button" value="Calculator">
+                    <div class="form-result">
+                        <h1 class="square-result"></h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="area-calc rectangle-calc">
+                <h3>Area of rectangle</h3>
+                <div class="form">
+                    <div class="form-input-container">
+                        <input class="form-input1 rec-value-1" type="number" placeholder="Enter value">
+                        <input class="form-input2 rec-value-2" type="number" placeholder="Enter value">
+                    </div>
+                    <input class="form-button rectangle-calc-btn" type="button" value="Calculator">
+                    <div class="form-result">
+                        <h1 class="rectangle-result"></h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="area-calc cylinder-calc">
+                <h3>Area of cylinder</h3>
+                <div class="form">
+                    <div class="form-input-container">
+                        <input class="form-input1 cylinder-value-1" type="number" placeholder="Enter value">
+                        <input class="form-input2 cylinder-value-2" type="number" placeholder="Enter value">
+                    </div>
+
+
+                    <input class="form-button cylinder-calc-btn" type="button" value="Calculator">
+                    <div class="form-result">
+                        <h1 class="cylinder-result"></h1>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
